@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.375rem;
+    color: seashell;
+    background-color: #000;
+    opacity: 0.9;
+    min-width: 90vw;
+    min-height: 100vh;
+    padding-left: .625rem;
+    scroll-behavior: smooth;
+    text-align: center;
+}
+
+header {
+    height: 4.3125rem;
+    border-bottom: .0625rem solid seashell;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.logo {
+    margin-left: .625rem;
+    height: 3.125rem;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none;
+    text-decoration: underline;
+    padding: 1rem;
+    display: block;
+}
+
+.navbar ul li a {
+    color: seashell;
+}
+
+main {
+    margin-top: 4.3125rem;
+}
+
+#mission {
+    display: flex;
+    justify-content: center;
+    height: 43.75rem;
+    width: 75rem;
+    background: url('../images/img-mission-background.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: .3125rem;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission-desc {
+    background: #000;
+    width: 100%;
+    padding: .625rem 0;
+}
+
+.mission-desc h2,
+.mission-desc h4 {
+    margin: 0;
+}
+
+#featured {
+    margin: 0 auto;
+    width: 62.5rem;
+}
+
+.featured-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5625rem;
+}
+
+.featured-items img {
+    width: 18.75rem;
+    height: 12.5rem;
+    border-radius: .125rem;
+    transition: transform .3s;
+}
+
+.featured-items img:hover {
+    transform: scale(1.1);
+}
+
+.featured-items h4 {
+    margin-top: .625rem;
+}
+
+#locations {
+    background: url('../images/img-locations-background.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: .3125rem;
+    height: 35.625rem;
+    width: 75rem;
+}
+
+.our-locations {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.location {
+    width: 18.75rem;
+    opacity: 1;
+    background-color: #000;
+    border-radius: .3125rem;
+    transition: transform .3s;
+}
+
+.location:hover {
+    transform: scale(1.1);
+}
+
+#locations h2 {
+    margin-bottom: .9375rem;
+}
+
+.contact {
+    height: 12.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.contact h2,
+.contact h4 {
+    margin: 0;
+}
+
+.copyright {
+    text-align: left;
+    margin-left: 1.25rem;
+}
+
